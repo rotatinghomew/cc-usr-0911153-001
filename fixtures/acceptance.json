@@ -1,0 +1,158 @@
+{
+  "scenario": "果品智能分选质量闭环平台",
+  "synthetic": true,
+  "records": [
+    {
+      "record_id": "fruit_lot-001",
+      "payload": {
+        "sweetness_brix": 12.0,
+        "diameter_mm": 13.9,
+        "mass_g": 15.8,
+        "skin_color": "skin_color-3",
+        "bruise_area": 19.6,
+        "internal_void": 21.5,
+        "ripeness": 23.4,
+        "origin_code": "origin_code-2",
+        "harvest_age_h": 27.2,
+        "camera_coverage": 0.47,
+        "ct_confidence": 0.58,
+        "manual_grade": "manual_grade-1"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    },
+    {
+      "record_id": "fruit_lot-002",
+      "payload": {
+        "sweetness_brix": 15.7,
+        "diameter_mm": 17.6,
+        "mass_g": 19.5,
+        "skin_color": "skin_color-4",
+        "bruise_area": 23.3,
+        "internal_void": 25.2,
+        "ripeness": 27.1,
+        "origin_code": "origin_code-3",
+        "harvest_age_h": 30.9,
+        "camera_coverage": 0.58,
+        "ct_confidence": 0.69,
+        "manual_grade": "manual_grade-2"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    },
+    {
+      "record_id": "fruit_lot-003",
+      "payload": {
+        "sweetness_brix": 19.4,
+        "diameter_mm": 21.3,
+        "mass_g": 23.2,
+        "skin_color": "skin_color-0",
+        "bruise_area": 27.0,
+        "internal_void": 28.9,
+        "ripeness": 30.8,
+        "origin_code": "origin_code-4",
+        "harvest_age_h": 34.6,
+        "camera_coverage": 0.69,
+        "ct_confidence": 0.8,
+        "manual_grade": "manual_grade-3"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    },
+    {
+      "record_id": "fruit_lot-004",
+      "payload": {
+        "sweetness_brix": 23.1,
+        "diameter_mm": 25.0,
+        "mass_g": 26.9,
+        "skin_color": "skin_color-1",
+        "bruise_area": 30.7,
+        "internal_void": 32.6,
+        "ripeness": 34.5,
+        "origin_code": "origin_code-0",
+        "harvest_age_h": 38.3,
+        "camera_coverage": 0.8,
+        "ct_confidence": 0.91,
+        "manual_grade": "manual_grade-4"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    },
+    {
+      "record_id": "fruit_lot-005",
+      "payload": {
+        "sweetness_brix": 26.8,
+        "diameter_mm": 28.7,
+        "mass_g": 30.6,
+        "skin_color": "skin_color-2",
+        "bruise_area": 34.4,
+        "internal_void": 36.3,
+        "ripeness": 38.2,
+        "origin_code": "origin_code-1",
+        "harvest_age_h": 42.0,
+        "camera_coverage": 0.91,
+        "ct_confidence": 0.25,
+        "manual_grade": "manual_grade-0"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    },
+    {
+      "record_id": "fruit_lot-006",
+      "payload": {
+        "sweetness_brix": 30.5,
+        "diameter_mm": 32.4,
+        "mass_g": 34.3,
+        "skin_color": "skin_color-3",
+        "bruise_area": 38.1,
+        "internal_void": 40.0,
+        "ripeness": 41.9,
+        "origin_code": "origin_code-2",
+        "harvest_age_h": 45.7,
+        "camera_coverage": 0.25,
+        "ct_confidence": 0.36,
+        "manual_grade": "manual_grade-1"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    },
+    {
+      "record_id": "fruit_lot-007",
+      "payload": {
+        "sweetness_brix": 34.2,
+        "diameter_mm": 36.1,
+        "mass_g": 38.0,
+        "skin_color": "skin_color-4",
+        "bruise_area": 41.8,
+        "internal_void": 43.7,
+        "ripeness": 45.6,
+        "origin_code": "origin_code-3",
+        "harvest_age_h": 49.4,
+        "camera_coverage": 0.36,
+        "ct_confidence": 0.47,
+        "manual_grade": "manual_grade-2"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    },
+    {
+      "record_id": "fruit_lot-008",
+      "payload": {
+        "sweetness_brix": 37.9,
+        "diameter_mm": 39.8,
+        "mass_g": 41.7,
+        "skin_color": "skin_color-0",
+        "bruise_area": 45.5,
+        "internal_void": 47.4,
+        "ripeness": 49.3,
+        "origin_code": "origin_code-4",
+        "harvest_age_h": 53.1,
+        "camera_coverage": 0.47,
+        "ct_confidence": 0.58,
+        "manual_grade": "manual_grade-3"
+      },
+      "state": "received",
+      "source": "synthetic-local-acceptance"
+    }
+  ]
+}
