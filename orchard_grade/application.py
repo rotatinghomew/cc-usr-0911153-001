@@ -9,6 +9,7 @@ from orchard_grade.trace.lot_journal import Repository
 from orchard_grade.operations.release_flow import advance_for_outcome, decide
 from orchard_grade.exports.packhouse import export_bundle, verify_bundle
 from orchard_grade.sensing.fusion import derive_context
+from orchard_grade.inspection.receipts import InspectionReceipt
 
 
 class Application:
@@ -64,6 +65,12 @@ class Application:
     def inspect(self) -> dict[str, Any]:
         return {"snapshot": self.repository.snapshot(), "records": [record.__dict__ for record in self.repository.list_records()],
                 "decisions": self.repository.decision_rows()}
+
+    def receive_inspection(self, receipt: InspectionReceipt) -> bool:
+        return self.repository.add_inspection(receipt)
+
+    def dispatch(self, lot_id: str) -> dict[str, Any]:
+        return self.repository.dispatch(lot_id).__dict__
 
 
 def load_fixture(path: str | Path) -> dict[str, Any]:
