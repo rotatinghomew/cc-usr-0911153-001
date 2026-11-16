@@ -21,6 +21,8 @@ class InspectionReceipt:
     inspected_at: str
 
     def __post_init__(self) -> None:
+        if not all(isinstance(value, str) for value in self.__dict__.values()):
+            raise ContractError("inspection receipt fields must be text")
         if not all((self.receipt_id, self.lot_id, self.origin_code, self.line_id,
                     self.camera_batch, self.inspected_grade, self.machine_grade,
                     self.sampling_reason, self.inspected_at)):
