@@ -1,1 +1,1 @@
-"""Human inspection evidence for fruit lots."""
+"""果批人工复检凭据。"""
